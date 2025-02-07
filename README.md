@@ -29,4 +29,4 @@ python3 main.py
 python3 classical.py
 ```
 
-On Google Colaboratory, copy the code from main.py in a cell and then run it.
+On Google Colaboratory, copy the code from the desired file in a cell and then run it.
