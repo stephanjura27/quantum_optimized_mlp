@@ -21,7 +21,7 @@ As an alternative, you can use Google Colaboratory. Numpy, matplotlib, scikit-le
 pip install qiskit==0.43.2
 ```
 
-On Ubuntu, run the main.py file for training the quantum-inspired MLP, classical.py for training an MLP trained using gradient descent backpropagation algorithm with ADAM optimizer
+On Ubuntu, run the main.py file for training the quantum-inspired MLP, classical.py for training an MLP trained using gradient descent backpropagation algorithm with ADAM optimizer.
 ```bash
 python3 main.py
 ```
@@ -29,4 +29,10 @@ python3 main.py
 python3 classical.py
 ```
 
-On Google Colaboratory, copy the code from the desired file in a cell and then run it.
+On Google Colaboratory, copy the code from the desired file in a cell and then run it. 
+
+If you want to replace the cross-entropy loss with the non-convex function presented in the paper, simply replace the formula from the code with
+```python
+loss = alpha * (-torch.sum(targets * torch.log(outputs + 1e-9), dim=1)) + beta * torch.sum(torch.sin(phi * outputs), dim=1)
+```
+
