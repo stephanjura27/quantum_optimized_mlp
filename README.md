@@ -20,3 +20,10 @@ As an alternative, you can use Google Colaboratory. Numpy, matplotlib, scikit-le
 ```bash
 pip install qiskit==0.43.2
 ```
+
+On Ubuntu, run the main.py file.
+```bash
+python3 main.py
+```
+
+On Google Colaboratory, copy the code from main.py in a cell and then run it.
