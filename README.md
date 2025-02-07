@@ -1,2 +1,1 @@
-# quantum_optimized_mlp
-$x+3=5$
+# Quantum-Inspired Discrete Weight Optimization for Neural Networks Using Grover’s Algorithm
