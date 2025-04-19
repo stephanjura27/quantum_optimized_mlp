@@ -21,7 +21,7 @@ As an alternative, you can use Google Colaboratory. Numpy, matplotlib, scikit-le
 pip install qiskit==0.43.2
 ```
 
-On Ubuntu, run the main.py file for training the quantum-optimized MLP, classical.py for training an MLP trained using gradient descent backpropagation algorithm with ADAM optimizer or DeepNN.py for the deep quantum-optimized network.
+On Ubuntu, run the main.py file for training the quantum-optimized MLP, classical.py for training an MLP trained using gradient descent backpropagation algorithm with ADAM optimizer or DeepNetwork.py for the deep quantum-optimized network.
 ```bash
 python3 main.py
 ```
